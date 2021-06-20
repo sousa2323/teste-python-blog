@@ -4,7 +4,6 @@ from django.views.generic import ListView, DetailView
 from api.models import Post
 
 
-
 class IndexView(LoginRequiredMixin, ListView): 
     model = Post
     template_name = 'index.html'
