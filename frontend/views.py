@@ -7,4 +7,8 @@ class IndexView(ListView):
     model = Post
     template_name = 'index.html'
     queryset = Post.objects.all().order_by('-id')
-    context_object_name = 'posts'
+    #context_object_name = 'posts'
+
+class ArticleDetail(DetailView):
+    model = Post
+    template_name = 'article_detail.html'    
