@@ -161,5 +161,4 @@ ACCOUNT_UNIQUE_EMAIL = True
 
 
 
-
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
