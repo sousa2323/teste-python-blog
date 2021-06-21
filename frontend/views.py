@@ -11,4 +11,5 @@ class IndexView(LoginRequiredMixin, ListView):
 
 class ArticleDetail(LoginRequiredMixin, DetailView):
     model = Post
-    template_name = 'article_detail.html'    
+    template_name = 'article_detail.html'
+        
