@@ -12,4 +12,3 @@ def postkList(request):
 	posts = Post.objects.all().order_by('-id')
 	serializer = PostSerializer(posts, many=True)
 	return Response(serializer.data)
-
